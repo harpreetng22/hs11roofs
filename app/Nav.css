@@ -1,0 +1,109 @@
+.Nav {
+  width: 100vw;
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(106, 109, 119, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  display: flex;
+  min-width: 100vw;
+  height: 3vw;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 7vw;
+  font-weight: lighter;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* border: 1px solid #fff;
+  padding: 3px;
+  border-radius: 10px; */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.logo {
+  margin-left: 5vw;
+  /* align-self: start; */
+}
+.logo img {
+  /* align-self: start; */
+  height: 100%;
+  /* width: 100%; */
+  object-fit: contain;
+}
+.contact {
+  /* width: 50vw; */
+  /* width: 50vw; */
+}
+@media only screen and (max-width: 1500px) {
+  /* Your CSS rules for devices with width less than 1280 pixels */
+  .navbar {
+    background-color: rgba(106, 109, 119, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    display: flex;
+    width: 100vw;
+    height: 4vw;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* Your CSS rules for devices with width less than 1280 pixels */
+  .navbar {
+    background-color: rgba(106, 109, 119, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-between;
+  }
+
+  .contact {
+    min-width: 120px;
+    display: block;
+  }
+  .logo {
+    margin-left: 2vw;
+    /* align-self: start; */
+  }
+  .navbar ul li {
+    margin-right: 4vw;
+    font-weight: lighter;
+    font-size: large;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    /* border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 10px; */
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* Your CSS rules for devices with width less than 1280 pixels */
+
+  .contact {
+    width: 27vw;
+    display: block;
+  }
+}
