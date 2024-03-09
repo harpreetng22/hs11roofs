@@ -44,7 +44,7 @@ export async function sendEmail({
   // Email template
   const mailOptions = {
     from: "hsingh_be18@thapar.edu",
-    to: email,
+    to: "hs11roofing@gmail.com",
     subject: "Service Request",
     html: `
       <p>Hello HS11 Roofing & Renovation,</p>
